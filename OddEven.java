@@ -17,3 +17,4 @@ public class Playing_with_GoodStrings{
         System.out.println(ans);
     }
 }
+
