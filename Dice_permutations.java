@@ -12,6 +12,7 @@ class Dice_permutations{
         for(int i=1;i<=6;i++){
             no_of_possibleWays(curr+i,end,ans+i);
         }
+        
     }
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
