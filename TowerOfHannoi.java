@@ -8,7 +8,6 @@ class TowerOfHannoi{
         System.out.println("Move"+n+"th disc from "+src+" to "+dest);
         toh(n-1,hlp,src,dest);
     }
-
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
