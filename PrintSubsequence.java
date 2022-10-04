@@ -9,7 +9,6 @@ class PrintSubsequence{
         subsequence(str.substring(1),ans);
         subsequence(str.substring(1),ans+ch);
     }
-
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
         String str=sc.next();
