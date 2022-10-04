@@ -14,6 +14,7 @@ public class Playing_with_GoodStrings{
             int t=str.charAt(i)-1;
             ans+=(char)t;
         }
+        
         System.out.println(ans);
     }
 }
