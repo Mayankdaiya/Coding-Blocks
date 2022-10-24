@@ -10,8 +10,8 @@ class TowerOfHannoi{
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         String src="A";
-        String hlp="B";
-        String dest="C";
+        String hlp="C";
+        String dest="B";
         toh(n,src,hlp,dest);
     }
 }
