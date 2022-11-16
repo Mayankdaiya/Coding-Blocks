@@ -9,6 +9,7 @@ public class stack {
         Stack(int len){
             arr=new int[len];
         }
+        
         public void push(int item) throws Exception{
             if(isFull()){
                 throw new Exception("Stack full");
