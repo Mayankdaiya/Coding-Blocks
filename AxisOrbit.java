@@ -9,6 +9,7 @@ class AxisOrbit{
                 if(s.charAt((int)axis-orbit)!=s.charAt((int)axis+orbit)){
                     break;
                 }
+                
                 count++;
             }
         }
