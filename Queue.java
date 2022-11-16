@@ -8,6 +8,7 @@ public class Queue {
         queue(int len){
             arr=new int[len];
         }
+        
         public void enqueue(int item) throws Exception{
             if(isFull()){
                 throw new Exception("Queue full");
