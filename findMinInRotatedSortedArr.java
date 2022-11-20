@@ -20,8 +20,6 @@ class Solution {
                 }
                 else j=mid;
             }
-
-
         }
         return -1;
     }
