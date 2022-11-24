@@ -15,12 +15,11 @@ class pustAtStart{
     }
 
     public static void Insert(Stack<Integer> s,int item){
-        int t;
         if(s.isEmpty()){
             s.push(item);
         }
         else{
-            t=s.pop();
+            int t=s.pop();
             Insert(s,item);
             s.push(t);
             return;
