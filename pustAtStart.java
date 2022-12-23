@@ -14,7 +14,7 @@ class pustAtStart{
 
     }
 
-    public static void Insert(Stack<Integer> s,int item){
+  public static void Insert(Stack<Integer> s,int item){
         if(s.isEmpty()){
             s.push(item);
         }
