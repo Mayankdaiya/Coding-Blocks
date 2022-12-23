@@ -14,6 +14,7 @@ class PrimeSieve{
             if(!arr[i]) System.out.print(i+" ");
         }
     }
+    
     public static void main(String args[]){
         int n=10;
         primesieve(n);
