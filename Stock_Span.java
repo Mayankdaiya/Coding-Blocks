@@ -24,5 +24,4 @@ public class Stock_Span {
 		}
 		System.out.print("END");
 	}
-
 }
